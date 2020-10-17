@@ -3,7 +3,7 @@ n=int(input("Enter a number to be checked : "))
 num=n
 while num!=0:
     rem=num%10
-
+    rev=(rev*10)+rem
     num=num//10
 pal=rev
 if(pal==n):
